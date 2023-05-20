@@ -1,0 +1,101 @@
+body {
+    font-family: cursive;
+    color: aliceblue;
+    margin: 0px;
+    padding: 0px;
+    background: url(gymp.jpg)
+}
+
+.left {
+    position: absolute;
+    left: 34px;
+    top:0px;
+    /* border: 2px solid yellow; */
+    display: inline-block;
+    
+
+}
+.left div{
+    line-height: 20px;
+    font-size: 20px;
+    
+}
+
+.left img{
+    width: 120px;
+    height: 100px;
+    margin: 20px;
+    border-radius: 50%;
+}
+
+.mid {
+    display: block;
+    width: 33%;
+    margin: 20px auto;
+    /* border: 2px solid rgb(0, 255, 4); */
+}
+
+.right {
+    position: absolute;
+    margin-top: 20px;
+    right: 34px;
+    top: 0px;
+    /* border: 2px solid rgb(255, 0, 106); */
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 16px;
+}
+.navbar li a{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 5px 5px;
+}
+.navbar li a:hover,.navbar li a.active{
+    text-decoration: underline;
+    color: gray;
+}
+.btn{
+    margin: 0px 9px;
+    color: aliceblue;
+    background-color: black;
+    padding: 4px 14px;
+    /* border: 2px solid yellow; */
+    border-radius: 4px;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: cursive;
+}
+.btn:hover{
+    background-color: thistle ;
+}
+.container{
+    border: 2px solid white;
+margin: 150px 400px;
+    padding: 35px 50px;
+    border-radius: 50px;
+
+}
+.container h1{
+    text-align: center;
+}
+.formgroup input{
+    color: black;
+    font-family: cursive;
+    text-align: center;
+    width: 200px;
+    display: block;
+    padding: 2px ;
+    border: 2px solid black;
+    margin:15px auto;
+    border-radius: 5px;
+}
+.container button{
+display: block;
+width: 100px;
+margin: 5px auto;
+background-color:black;
+padding: 5px 4px;
+color: white;
+}
